@@ -51,7 +51,7 @@ public class SimpleDialogFragment extends DialogFragment {
 
         listener = (SimpleDialogListener) getActivity();
 
-        mEditText = (EditText) view.findViewById(R.id.txt_your_name);
+        mEditText = (EditText) view.findViewById(R.id.name);
         btn = (Button) view.findViewById(R.id.ok);
 
         // quand le button est cliqué, l'activité est appellé,

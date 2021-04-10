@@ -34,7 +34,6 @@ public class PaypalFramgment extends DialogFragment {
         return frag;
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
 
@@ -51,7 +50,7 @@ public class PaypalFramgment extends DialogFragment {
 
         listener = (SimpleDialogListener) getActivity();
 
-        mEditText = (EditText) view.findViewById(R.id.txt_your_name);
+        mEditText = (EditText) view.findViewById(R.id.name);
         btn = (Button) view.findViewById(R.id.ok);
 
         // quand le button est cliqué, l'activité est appellé,
