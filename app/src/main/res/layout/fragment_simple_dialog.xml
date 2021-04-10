@@ -13,7 +13,7 @@
 
     <TextView
 
-        android:id="@+id/lbl_your_name"
+        android:id="@+id/name"
         android:layout_width="200dp"
 
         android:layout_height="50dp"
@@ -22,7 +22,7 @@
 
     <EditText
 
-        android:id="@+id/txt_your_name"
+        android:id="@+id/name_e"
 
         android:layout_width="200dp"
         android:layout_height="40dp"
@@ -30,6 +30,86 @@
         android:imeOptions="actionDone"
 
         android:inputType="text" />
+    <TextView
+
+        android:id="@+id/prenom"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="Your name" />
+
+
+    <EditText
+
+        android:id="@+id/prenom_e"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/numero"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="Your name" />
+
+
+    <EditText
+
+        android:id="@+id/numero_c"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/cvc"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="Your name" />
+
+
+    <EditText
+
+        android:id="@+id/cvc_e"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/expiration"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="Your name" />
+
+
+    <EditText
+
+        android:id="@+id/expiration_e"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
 
     <Button
         android:id="@+id/ok"
