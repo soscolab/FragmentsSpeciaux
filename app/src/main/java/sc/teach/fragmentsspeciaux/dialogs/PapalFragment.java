@@ -13,7 +13,7 @@ import androidx.fragment.app.DialogFragment;
 
 import sc.teach.fragmentsspeciaux.R;
 
-public class PaypalFramgment extends DialogFragment {
+public class PapalFragment extends DialogFragment {
 
 
     private EditText mEditText;
@@ -21,13 +21,13 @@ public class PaypalFramgment extends DialogFragment {
     private Button btn;
 
 
-    public PaypalFramgment() {
+    public PapalFragment() {
         // le fragment est créé par la méthode newInstance
     }
 
-    public static PaypalFramgment newInstance(String title) {
+    public static PapalFragment newInstance(String title) {
 
-        PaypalFramgment frag = new PaypalFramgment();
+        PapalFragment frag = new PapalFragment();
         Bundle args = new Bundle();
         args.putString("title", title);
         frag.setArguments(args);
@@ -39,7 +39,7 @@ public class PaypalFramgment extends DialogFragment {
 
                              Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.fragment_simple_dialog, container);
+        return inflater.inflate(R.layout.fragment_paypal_framgment, container);
 
     }
 
@@ -50,7 +50,7 @@ public class PaypalFramgment extends DialogFragment {
 
         listener = (SimpleDialogListener) getActivity();
 
-        mEditText = (EditText) view.findViewById(R.id.name);
+        mEditText = (EditText) view.findViewById(R.id.txt_your_name);
         btn = (Button) view.findViewById(R.id.ok);
 
         // quand le button est cliqué, l'activité est appellé,

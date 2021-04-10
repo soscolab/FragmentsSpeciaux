@@ -4,18 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
 
-import android.app.DatePickerDialog;
-import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.Toast;
 
-import java.util.Calendar;
-
-import sc.teach.fragmentsspeciaux.dialogs.PaypalFramgment;
+import sc.teach.fragmentsspeciaux.dialogs.PapalFragment;
 import sc.teach.fragmentsspeciaux.dialogs.SimpleDialogListener;
 import sc.teach.fragmentsspeciaux.dialogs.SimpleDialogFragment;
 
@@ -63,14 +57,10 @@ public class MainActivity extends AppCompatActivity implements  SimpleDialogList
     }
 
 
-
-
-
     public void showProgressDialog() {
 
-
         FragmentManager fm = getSupportFragmentManager();
-        PaypalFramgment fragment_paypal = PaypalFramgment.newInstance("Titre");
+        PapalFragment fragment_paypal = PapalFragment.newInstance("titre");
         fragment_paypal.show(fm, "fragment_simple_dialog");
             }
 
